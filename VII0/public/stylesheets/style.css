@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #00B7FF;
+  font-size: 20px;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+.fluffy {
+  width: 700px;
+}
+
+nav {
+  background: #222;
+  padding: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  width: 350px;
+  text-align: center;
+}
